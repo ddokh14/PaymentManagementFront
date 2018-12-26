@@ -1,0 +1,17 @@
+.filtered-content-container{
+    display: flex;
+    width:100%;
+    margin-top:50px;
+}
+filtered-payments{
+    flex:3;
+}
+filtered-charts{
+    flex:2;
+}
+
+@media screen and (max-width: 992px) {
+    .filtered-content-container{
+        flex-direction: column;
+    }
+  }

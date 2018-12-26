@@ -1,0 +1,27 @@
+.category-tag{
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(161, 196, 255);
+    line-height: 1.2;
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+    outline: none;
+    border-color: rgb(161, 196, 255);
+    border-radius: 16px;
+    padding: 0 10px;
+    height: 30px;
+    cursor: pointer;
+    margin:15px 10px 0 0;
+}
+
+.category-tag:hover{
+    background-color: rgb(161, 196, 255);
+    color:white;
+}
+.active{
+    background-color:rgb(161, 196, 255);
+    color:white;
+}
+  
+  

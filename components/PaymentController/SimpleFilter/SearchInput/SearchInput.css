@@ -1,0 +1,34 @@
+.search-input-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-grow:1;
+}
+img{
+    position: absolute;
+}
+input{
+    height: 100%;
+    width:160px;
+    box-sizing: border-box;
+    border:0px;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    padding-left:40px;
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(187, 187, 187);
+    line-height: 1.2;
+}
+input::placeholder{
+    color: rgb(187, 187, 187);
+}
+  
+@media screen and (max-width: 992px) {
+    input {
+        width:100px;
+    }
+  }
+
+  

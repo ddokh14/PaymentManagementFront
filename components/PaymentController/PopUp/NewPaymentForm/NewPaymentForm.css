@@ -1,0 +1,94 @@
+.new-payment-form{
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.wrapper .labeled-input:first-child{
+    flex:3;
+}
+.wrapper .labeled-input:last-child{
+    flex:2;
+}
+button{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #a1c4ff;
+    padding:10px;
+    outline: none;
+    border:0;
+    width: fit-content;
+    align-self: flex-end;
+    margin:20px 5px 0 0;
+
+}
+
+
+select{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background:#fff url('../../../../assets/arrow.svg')  97% 50% no-repeat ;
+}
+
+input,textarea,select{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(190, 194, 218);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    outline:none;
+    height: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+textarea{
+    height: auto;
+    padding:15px;
+}
+label{
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(161, 196, 255);
+    line-height: 1.2;
+    margin-bottom:5px;
+}
+.labeled-input{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+
+input::placeholder{
+    color: rgb(187, 187, 187);
+}
+
+input[type="date"] {
+    background:#fff url('../../../../assets/calendar.svg')  97% 50% no-repeat ;
+}
+
+input[type="date"]::before {
+    content: attr(placeholder);
+    width:100%;
+    color: rgb(187, 187, 187);
+}
+input[type="date"]:focus::before,input[type="date"]:valid::before { 
+    display: none 
+}
+
+input[type="date"]::-webkit-inner-spin-button,input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+  }
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+  
+  

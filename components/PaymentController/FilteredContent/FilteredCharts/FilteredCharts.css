@@ -1,0 +1,15 @@
+.filtered-charts-container{
+    position: relative;
+    background-color: #f9fafb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+bar-chart{
+    flex:1;
+}
+@media screen and (max-width: 992px) {
+    .filtered-charts-container{
+        margin-top:20px;
+    }
+  }

@@ -1,0 +1,36 @@
+<template id="new-payment-form-template">
+    <link rel="stylesheet" href="../../../../components/PaymentController/PopUp/NewPaymentForm/NewPaymentForm.css">
+    <div class="new-payment-form">
+        <div class="wrapper">
+            <div class="labeled-input">
+                <label for="input">Title:</label>
+                <input id="title" class="input" type="text">
+            </div>
+            <div class="labeled-input">
+                <label for="input">Amount:</label>
+                <input id="amount" class="input" type="number" step="any">
+            </div>
+        </div>
+        <div class="labeled-input">
+            <label for="input">Category:</label>
+            <select id="category">
+                <option value="" selected disabled hidden></option>
+                <option value="mobile services">mobile services</option>
+                <option value="gasoline">gasoline</option>
+                <option value="food">food</option>
+                <option value="charity">charity</option>
+                <option value="transport">transport</option>
+            </select>
+        </div> 
+        <div class="labeled-input">
+            <label for="input">Date:</label>
+            <input id="date" class="input" type="date" required>
+        </div>  
+        <div class="labeled-input">
+            <label for="input">Comment:</label>
+            <textarea id="comment" rows="5"></textarea>  
+        </div>  
+        <button>Create</button>
+    </div>
+</template>
+<script src="../../../../components/PaymentController/PopUp/NewPaymentForm/NewPaymentForm.js"></script>

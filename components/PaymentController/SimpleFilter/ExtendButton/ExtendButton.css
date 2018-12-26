@@ -1,0 +1,13 @@
+.extend-button{
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(249, 250, 251);
+    line-height: 1.2;
+    background-color: #a7bedb;
+    padding:0 10px;
+    border:0px;
+    outline: none;
+    border-radius: 16px;
+    height: 32px;
+    cursor: pointer;
+}

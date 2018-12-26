@@ -1,0 +1,20 @@
+.filter-section-container{
+    height: 100%;
+    padding:10% 0;
+    box-sizing: border-box;
+}
+
+.filter-section-title {
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(155, 165, 178);
+    line-height: 1.2;
+    margin:0;
+}
+
+@media screen and (max-width: 992px) {
+    .filter-section-container{
+        padding:5% 0;
+    }
+  }
+  

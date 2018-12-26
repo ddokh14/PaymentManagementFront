@@ -1,0 +1,51 @@
+.filtered-payments-container{
+    position: relative;
+    background-color: #f9fafb;
+    height: 500px;
+    margin-right:20px;
+    display: flex;
+    flex-direction: column;
+}
+.filtered-payments{
+    flex:1;
+    overflow-y:auto;
+}
+.filtered-payments-title{
+    position: absolute;
+    top:0;
+    left:0;
+    transform:translateY(-100%);
+    
+}
+.filtered-payments-title p{
+    font-size: 26px;
+    font-family: "OpenSans";
+    color: rgb(69, 97, 126);
+    line-height: 30px;
+    margin:10px 0;
+}
+  
+.payment-total{
+    background-color:#a1c4ff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.payment-total p{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(249, 250, 251);
+    line-height: 1.2;
+    text-align: right;
+    margin:0;
+}
+.payment-total span{
+    display: block;
+    font-size:20px;
+}
+
+@media screen and (max-width: 992px) {
+    .filtered-payments-container{
+        margin:0;
+    }
+  }

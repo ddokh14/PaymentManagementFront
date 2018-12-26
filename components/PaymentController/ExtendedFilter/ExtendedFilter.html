@@ -1,0 +1,32 @@
+<template id="extended-filter-template">
+    <link rel="stylesheet" href="../../../components/PaymentController/ExtendedFilter/ExtendedFilter.css">
+    <div class="extended-filter-container">
+        <filter-section id="category-section">
+            <p>filter by category</p>
+            <div class="category-wrapper">
+                <category-tag name="mobile services"></category-tag>
+                <category-tag name="gasoline"></category-tag>
+                <category-tag name="food"></category-tag>
+                <category-tag name="charity"></category-tag>
+                <category-tag name="transport"></category-tag>
+            </div>
+        </filter-section>
+        <divider-line></divider-line>
+        <filter-section id="date-section">
+            <p>filter by date</p>
+            <filter-input id="date-from" type="date" placeholder="from"></filter-input>
+            <filter-input id="date-to" type="date" placeholder="to"></filter-input>
+        </filter-section>
+        <divider-line></divider-line>
+        <filter-section id="amount-section">
+            <p>filter by amount</p>
+            <filter-input id="amount-from" type="number" placeholder="from"></filter-input>
+            <filter-input id="amount-to" type="number" placeholder="to"></filter-input>
+        </filter-section>
+    </div>
+</template>
+<link rel="import" href="../../../components/PaymentController/ExtendedFilter/FilterInput/FilterInput.html">
+<link rel="import" href="../../../components/PaymentController/ExtendedFilter/CategoryTag/CategoryTag.html">
+<link rel="import" href="../../../components/PaymentController/SimpleFilter/DividerLine/DividerLine.html">
+<link rel="import" href="../../../components/PaymentController/ExtendedFilter/FilterSection/FilterSection.html">
+<script src="../../../components/PaymentController/ExtendedFilter/ExtendedFilter.js"></script>

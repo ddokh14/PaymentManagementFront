@@ -1,0 +1,32 @@
+.simple-filter-container{
+    background-color: #f9fafb;
+    width:100%;
+    height:84px;
+    margin-top:20px;
+    padding:0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.right-wrapper{
+    display: flex;
+    height: 100%;
+}
+.left-wrapper{
+    display: flex;
+    height: 100%;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 992px) {
+    .simple-filter-container {
+        padding:0 10px;  
+    }
+    .left-wrapper divider-line{
+        display: none;
+    }
+  }
+  

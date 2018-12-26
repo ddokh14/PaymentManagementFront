@@ -1,0 +1,10 @@
+.payment-controller-container{
+    min-height: calc(100vh - 156px);
+    padding:56px 20% 0;
+}
+
+@media screen and (max-width: 992px) {
+    .payment-controller-container {
+      padding:56px 5% 0;
+    }
+  }

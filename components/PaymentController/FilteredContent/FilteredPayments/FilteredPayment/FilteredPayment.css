@@ -1,0 +1,80 @@
+.payment p{
+    margin: 0;
+}
+.payment{
+    border-bottom:1px solid rgb(224, 220, 218);
+    padding:20px;
+    background-color:inherit;
+    cursor: pointer;
+    user-select: none;
+}
+.payment-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.payment:hover{
+    background-color:#f3f4f8;
+}
+.payment-title,.payment-info{
+    display: flex;
+    flex-direction: column;
+}
+.category{
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(161, 196, 255);
+    line-height: 1.2;
+    border:1px solid rgb(161, 196, 255);
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 10px;
+    width:max-content;
+    margin-top:15px;
+}
+  
+.title{
+    font-size: 19px;
+    font-family: "OpenSans";
+    color: rgb(69, 97, 126);
+    line-height: 1.2; 
+}
+.date{
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(170, 170, 170);
+    line-height: 1.2;
+    text-align: right; 
+}
+.amount{
+    font-size: 29px;
+    font-family: "OpenSans";
+    color: rgb(248, 87, 118);
+    line-height: 1.2;
+    text-align: right;
+}
+.amount span{
+    font-size: 17px;
+    font-family: "OpenSans";
+    color: rgb(248, 87, 118);
+    line-height: 1.2;
+    display: block;
+    text-align: right;
+}
+.payment-comment{
+    width: 100%;
+    margin-top:10px;
+}
+.comment-title{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(69, 97, 126);
+    line-height: 1.2;
+}
+.comment{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(184, 184, 184);
+    line-height: 1.2;
+}

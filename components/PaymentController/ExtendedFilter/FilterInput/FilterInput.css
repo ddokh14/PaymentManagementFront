@@ -1,0 +1,42 @@
+.filter-input{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(190, 194, 218);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    padding-left:15px;
+    padding-right:10px;
+    margin-top:15px;
+}
+.filter-input::placeholder{
+    color: rgb(187, 187, 187);
+}
+
+.filter-input[type="date"] {
+    background:#fff url('../../../../assets/calendar.svg')  97% 50% no-repeat ;
+}
+
+.filter-input[type="date"]::before {
+    content: attr(placeholder);
+    width:100%;
+    color: rgb(187, 187, 187);
+}
+.filter-input[type="date"]:focus::before,.filter-input[type="date"]:valid::before { 
+    display: none 
+}
+
+.filter-input[type="date"]::-webkit-inner-spin-button,.filter-input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+  }
+.filter-input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+
+.filter-input:focus{
+    border-color: rgb(161, 196, 255);
+}
